@@ -1,8 +1,17 @@
+<script setup>
+import Frame from './components/frame.vue'
+
+</script>
+
 <template>
-    <h1>💖 Hello World!</h1>
-    <p>Welcome to your Electron application.</p>
+    <frame />
 </template>
 
-<script setup>
-console.log('👋 This message is being logged by "App.vue", included via Vite');
-</script>
+<style>
+
+#app {
+    width: 100%;
+    height: 100%;
+}
+
+</style>
