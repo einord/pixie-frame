@@ -1,9 +1,13 @@
 {
   "name": "pixie-frame",
   "productName": "pixie-frame",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Small app for showing pictures in a digital frame or screen.",
   "main": ".vite/build/main.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/einord/pixie-frame.git"
+  },
   "scripts": {
     "start": "electron-forge start",
     "package": "electron-forge package",
@@ -29,6 +33,7 @@
     "eslint-plugin-import": "^2.25.0",
     "ts-node": "^10.0.0",
     "typescript": "~4.5.4",
+    "update-electron-app": "^3.0.0",
     "vite": "^5.0.12"
   },
   "keywords": [],
